@@ -1,0 +1,18 @@
+{
+  "name": "schedule-calendar",
+  "version": "0.0.1",
+  "description": "This is utility for calculate time by schedule",
+  "main": "time-by-schedule.js",
+  "scripts": {
+    "test": "mocha --reporter list --growl test/test.spec.js"
+  },
+  "author": "Matsitsky SS",
+  "license": "ISC",
+  "dependencies": {
+    "moment-timezone": "^0.5.13"
+  },
+  "devDependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}
