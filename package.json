@@ -1,6 +1,6 @@
 {
   "name": "@mats-maker/schedule-calendar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "This is utility for calculate time by schedule",
   "main": "src/time-by-schedule.js",
   "scripts": {
@@ -26,9 +26,7 @@
     "schedule",
     "calendar",
     "timetable",
-    "work",
-    "of",
-    "time"
+    "work of time"
   ],
   "bugs": {
     "url": "https://github.com/MatsMaker/time-by-schedule/issues"
