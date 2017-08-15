@@ -9,10 +9,10 @@ We have week schedule with exceptions:
 ```javascript
           [
             {
-                indexOfday: 0,
-                from: 28800,  // 8:00 AM
-                to: 63000,    // 5:30 PM
-                isActive: true
+                indexOfday: 0,   // Index of day
+                from: 28800,     // 8:00 AM Start of work day this is number seconds from start the day
+                to: 63000,       // 5:30 PM End of work day this is number seconds from start the day
+                isActive: true   // Toggler - active or not active this day. Possibly will need when schedule will be editing and need show some time
             }, {
                 indexOfday: 1,
                 from: 28800,
@@ -59,9 +59,9 @@ We have week schedule with exceptions:
 const shedule = {
         week: [
             {
-                indexOfday: 0,
-                from: 28800,
-                to: 63000,
+                indexOfday: 0,          // Index of day 0-6
+                from: 28800,            // Start of work day this is number seconds from start the day
+                to: 63000,              // End of work day this is number seconds from start the day
                 isActive: true
             }, {
                 indexOfday: 1,
