@@ -1,8 +1,8 @@
 {
-  "name": "schedule-calendar",
+  "name": "@mats-maker/schedule-calendar",
   "version": "0.0.1",
   "description": "This is utility for calculate time by schedule",
-  "main": "time-by-schedule.js",
+  "main": "src/time-by-schedule.js",
   "scripts": {
     "test": "mocha --reporter list --growl test/test.spec.js"
   },
@@ -14,5 +14,24 @@
   "devDependencies": {
     "chai": "^4.0.2",
     "mocha": "^3.4.2"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatsMaker/time-by-schedule.git"
+  },
+  "keywords": [
+    "schedule",
+    "calendar",
+    "timetable",
+    "work",
+    "of",
+    "time"
+  ],
+  "bugs": {
+    "url": "https://github.com/MatsMaker/time-by-schedule/issues"
+  },
+  "homepage": "https://github.com/MatsMaker/time-by-schedule#readme"
 }
