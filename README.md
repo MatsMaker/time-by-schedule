@@ -2,6 +2,8 @@
 
 Small utility for calculate work time by schedule
 
+npm package https://www.npmjs.com/package/@mats-maker/schedule-calendar
+
 ### Example:
 
 We have week schedule with exceptions:
